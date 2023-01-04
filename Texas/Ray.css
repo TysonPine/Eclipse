@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to top, rgb(51, 102, 255), rgb(255, 117, 26));
+}
+
+section {
+    width: 100%;
+    height: 358px;
+    /*background-color: rgb(0, 174, 255);*/
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.Maindiv {
+    width: 220px;
+    height: 100%;
+    /*background-color: rgb(255, 0, 0);*/
+    background: linear-gradient( to bottom, rgb(255, 204, 102),rgb(255, 255, 255));
+    /*border: solid 1px black ;*/
+
+    position: fixed;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.Maindiv h2 {
+    font-size: 1.3rem;
+    padding: 2px;
+    font-weight: 100;
+    cursor: default;
+}
+
+.Maindiv .Menu{
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.Maindiv .Menu ul li{
+    font-size: 1rem;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.Menu ul li h4 {
+    padding: 5px 5px;
+}
+
+.Menu .fa-house {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-record-vinyl {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-music {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-calendar-days {
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+
+.Menu .fa-masks-theater {
+    padding: 10px 10px;
+    padding-right: 22px;
+}
+
+.Menu .fa-radio {
+    padding: 10px 10px;
+    padding-right: 26px;
+}
+
+.Menu .fa-clock {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Menu .fa-heart-circle-plus {
+    padding: 10px 10px;
+    padding-right: 27px;
+}
+
+.Menu .fa-folder-open {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Menu .fa-thumbs-up {
+    padding: 10px 10px;
+    padding-right: 28px;
+}
+
+.Page {
+    width: 83.9%;
+    height: 9%;
+    /*background-color: blueviolet;*/
+    background: linear-gradient(to right,  rgb(255, 204, 102),rgb(255, 255, 255));
+    /*border: solid 1px black ;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 220px;
+    position: fixed;
+    cursor: pointer;
+}
+.Page .fa-magnifying-glass {
+    font-size: 1.6rem;
+}
+
+.Page .fa-chevron-left{
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Page .fa-chevron-right {
+    font-size: 1.3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Page .searchbar {
+    width: 600px;
+    height: 40px;
+}
+
+.Page .fa-gear {
+    font-size: 1.6rem;
+}
+
+.Page .fa-bell {
+    font-size: 1.6rem;
+}
+
+.Page img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.Albums {
+    width: 83.9%;
+    height: 300px;
+    /*background-color: red;*/
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.Sasaki {
+    width: 100%;
+    height: 280px;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nzk {
+    width: 270px;
+    height: 270px;
+    border-radius: 2%;
+    /*background-color: rgb(255, 0, 221);*/
+    background: linear-gradient(to top left, rgb(102, 153, 255), rgb(255, 153, 102));
+}
+
+.nzk img {
+    width: 270px;
+    height: 220px;
+    border-radius: 10%;
+}
+
+.nzk h4 {
+    color: white;
+}
+
+.nzk p {
+    color: white;
+}
+
+.midbody {
+    width: auto;
+    height: 570px;
+    /*background-color: blue;*/
+    display: flex;
+    margin-left: 220px;
+}
+
+.toplist {
+    width: 50%;
+    height: 500px;
+    /*background-color: royalblue;*/
+    /*border: solid 1px black;*/
+}
+
+.music {
+    width: auto;
+    height: 473px;
+    /*background-color: burlywood;*/
+    /*border: solid 1px black;*/
+
+    display: flex;
+    flex-direction: column;
+}
+
+.V1 {
+    width: 550px;
+    height: 80px;
+    /*background-color: greenyellow;*/
+    background: linear-gradient(to right, rgb(128, 191, 255),rgb(255, 255, 255));
+
+
+    margin: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+.V1 img {
+    width: 110px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+.V1 h3 {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.V1 p {
+    font-size: 1rem;
+    color: white;
+}
+
+.DA {
+    font-size: 1.2rem;
+    padding-left: 110px;
+}
+
+.DS {
+    font-size: 1.2rem;
+    padding-left: 256px;
+}
+
+.DD {
+    font-size: 1.2rem;
+    padding-left: 195px;
+}
+
+.DF {
+    font-size: 1.2rem;
+    padding-left: 183px;
+}
+
+.DG {
+     font-size: 1.2rem;
+     padding-left: 168px;
+}
+
+.genre {
+    width: 50%;
+    height: 500px;
+    /*background-color: aquamarine;*/
+}
+
+.genre h2 {
+    margin-left: 20px;
+}
+
+.multi {
+    width: auto;
+    height: 473px;
+
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.vibe {
+    width: 250px;
+    height: 150px;
+    /*background-color: red;*/
+
+    margin: 5px;
+}
+
+
+.vibe img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+
+.musicplayer {
+    width: 100%;
+    height: 69px;
+    /*background-color: cyan;*/
+    background: rgb(38, 39, 41);
+    /*border: solid 1px rgb(0, 0, 0);*/
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    margin-top: 198px;
+    border-radius: 90px;
+}
+
+.G1 {
+    width: 200px;
+    
+}
+
+.G1 img {
+    width: 80px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 10%;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.G2 {
+    display: flex;
+    align-items: center;
+}
+
+.G2 audio {
+    width: 60em;
+    height: 50px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.G2 .fa-shuffle {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.G2 .fa-repeat {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.G2 .fa-up-right-and-down-left-from-center {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
